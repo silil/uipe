@@ -8,10 +8,11 @@ M. Sc. Liliana Millán Núñez liliana.millan@tec.mx
 
 ### Contenido
 
-+ Ciencia de datos
-+ Datos
-+ Herramientas para el análisis de datos
-+ Análisis básicos
++ Introducción
+  + Ciencia de datos
+  + Características
+  + Qué se puede hacer con ciencia de datos
+  + Qué no es ciencia de datos
 
 ***
 
@@ -100,3 +101,6 @@ Por ejemplo:
 * No es (sólo) tecnología → TI
 * No son (sólo) algoritmos → *Machine learning*
 * Reemplazo de personas
+
+
+![Inicio](./index.md)
