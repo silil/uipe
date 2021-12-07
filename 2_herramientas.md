@@ -48,3 +48,6 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 + Seaborn
 + Scikit-learn
 + Spark
+
+
+![Inicio](./index.md)
