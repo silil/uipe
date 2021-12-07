@@ -14,6 +14,7 @@ M. Sc. Liliana Millán Núñez liliana.millan@tec.mx
   + Métricas de dispersión
   + Datos faltantes
     + Imputación de datos
++ Visualización
 ***
 
 ### Tipos de datos
@@ -111,7 +112,6 @@ Por ejemplo, de los salarios del ejemplo de la media, la mediana toma el valor d
 Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802, esto significa que el promedio puede variar desde
 
 
-
 ###  Diagramas más utilizados
 
 + **Histogramas**: Te permiten conocer la distribución que siguen tus datos. De forma visual ayudan a conocer los valores en los que la mayoría de las observaciones se concentran.
@@ -134,11 +134,9 @@ Para evitar malos entendidos, también es útil agregar el promedio a la gráfic
 ![](./images/boxplot_2.png)
 <br>
 
-+ **Diagrama de barras**: Esta gráfica se utiliza tanto para mostrar porcentajes como para frecuencias.
++ **Diagrama de barras**: Esta gráfica se utiliza tanto para mostrar porcentajes como para frecuencias. Se presentan ordenando de mayor a menor frecuencia, ya sea horizontal o verticalmente.
 
-
-
-
+![]
 
 + **Scatterplots**: Esta gráfica te permite visualizar la relación entre dos variables numéricas.
 
@@ -152,17 +150,19 @@ Por ejemplo:
 1. Mientras más sencilla mejor → queremos evitar ambigüedades en la interpretación de la gráfica
 * No generes gráficas con más de 4 variables al mismo tiempo: ejes, color, tamaño.
 
-
+![](./images/complicated_graph.png)
+<br>
+Fuente: [STHDA](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.sthda.com%2Fenglish%2Farticles%2F31-principal-component-methods-in-r-practical-guide%2F112-pca-principal-component-analysis-essentials%2F&psig=AOvVaw1oZCrJJATp4_sPEQcVukRj&ust=1638941586075000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiFw7D70PQCFQAAAAAdAAAAABAF)
 
 
 2. Siempre agregar títulos a cada eje incluyendo sus unidades en caso de necesitarlo. Por ejemplo, si el eje es dinero indica si es MXN, dólares, etc.
 
-
+![](./images/nombre_ejes.png)
 
 
 3. Si las etiquetas de algún eje ocupan cifras de más de 3 dígitos agrega siempre comas! o abrevia la cifra. Por ejemplo: 3.5k en lugar de 3,500.
 
-
+![](./images/cifras.png)
 
 4. **NUNCA** utilices gráficas de *pie*, en su lugar utiliza gráficas de barras horizontales ordenadas de mayor a menor porcentaje.
 
@@ -185,8 +185,14 @@ Presentar así:
 ![](./images/horas.png)
 <br>
 
-6. En variables numéricas utiliza colores de mayor a menor saturación.
+6. En variables numéricas utiliza un mismo color de mayor a menor saturación.
 
-
+![](./images/numerical.png)
 
 7. En variables categóricas utiliza colores diferentes para categoría **únicamente** si pondrás una leyenda con el valor que toma cada color, en caso contrario solo ocupa un color entre las diferentes categorías.
+
+![](./images/categorical.png)
+
+La siguiente página te puede servir de guía para visualizaciones [Data to viz](https://www.data-to-viz.com/), no dejes de leer la parte de *caveats*.
+
+![Inicio](./index.md)
