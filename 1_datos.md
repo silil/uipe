@@ -109,7 +109,7 @@ Por ejemplo, de los salarios del ejemplo de la media, la mediana toma el valor d
 
 + **Desviación estándar**: Pertime identificar qué tan dispersos están tus datos. Mientras más grande sea el número indica que hay más dispersión en tus datos → están más separados entre sí.
 
-Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802, esto significa que el promedio puede variar desde
+Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802, esto significa que el promedio puede variar con más menos 9 mil pesos, los datos tienen mucha dispersión.
 
 
 ###  Diagramas más utilizados
