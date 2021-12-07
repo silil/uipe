@@ -40,7 +40,7 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 + Dplyr: La primera vez: `install.packages("dplyr")`, una instalado, cargar la librería con `library(dplyr)`.
 + Librerias de ML: Depende del algoritmo, modelo que quieres utilizar.
 
-
+Si por algún motivo no puedes instalar R y RStudio en tu máquina, puedes ocupar `rdrr.io` para correr código de R en tu *browser* [rdrr.io](https://rdrr.io/snippets/).
 
 ### Python
 
@@ -48,6 +48,9 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 + Seaborn
 + Scikit-learn
 + Spark
+
+Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes ocupar `google colab` para generar y correr notebooks de python que te permiten analizar tus datos. Se guardan como scripts en Drive.
+
 
 
 [Inicio](./index.md)

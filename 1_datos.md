@@ -136,7 +136,7 @@ Para evitar malos entendidos, también es útil agregar el promedio a la gráfic
 
 + **Diagrama de barras**: Esta gráfica se utiliza tanto para mostrar porcentajes como para frecuencias. Se presentan ordenando de mayor a menor frecuencia, ya sea horizontal o verticalmente.
 
-![]
+![](./images/barplot_sorted_1.png)
 
 + **Scatterplots**: Esta gráfica te permite visualizar la relación entre dos variables numéricas.
 
