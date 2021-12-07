@@ -50,4 +50,4 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 + Spark
 
 
-![Inicio](./index.md)
+[Inicio](./index.md)

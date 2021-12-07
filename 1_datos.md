@@ -195,4 +195,4 @@ Presentar así:
 
 La siguiente página te puede servir de guía para visualizaciones [Data to viz](https://www.data-to-viz.com/), no dejes de leer la parte de *caveats*.
 
-![Inicio](./index.md)
+[Inicio](./index.md)

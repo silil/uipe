@@ -103,4 +103,4 @@ Por ejemplo:
 * Reemplazo de personas
 
 
-![Inicio](./index.md)
+[Inicio](./index.md)
