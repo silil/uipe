@@ -8,15 +8,15 @@ M. Sc. Liliana Millán Núñez liliana.millan@tec.mx
 
 ### Contenido
 
-+ Datos `tidy`
 + R
 + Python
++ Análisis exploratorio de datos
 
 ***
 
 Sin importar la herramienta que utilices para el análisis de los datos y el modelado, necesitarás tener tus datos en formato `tidy`.
 
-Filosofía de datos `tidy`:
+Recordemos que el formato `tidy` implica que:
 
 * Cada fila es una observación
 * Cada columna es una variable/característica de cada observación
@@ -44,13 +44,24 @@ Si por algún motivo no puedes instalar R y RStudio en tu máquina, puedes ocupa
 
 ### Python
 
-+ Pandas
-+ Seaborn
-+ Scikit-learn
-+ Spark
++ Pandas: Paquete que habilita a Python para análisis de datos (simil de R).
++ Seaborn: Paquete que habilita a Python para realizar gráficas.
++ Scikit-learn: Paquete que habilita a Python la parte de *machine learning*.
++ Spark: Paquete que habilita a Python al análisis de datos y *machine learning* en cluster.
 
-Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes ocupar `google colab` para generar y correr notebooks de python que te permiten analizar tus datos. Se guardan como scripts en Drive.
+Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes ocupar `google colab` para generar y correr *notebooks* de Python que te permiten analizar tus datos. Se guardan como scripts en Drive. [Google Colab](https://colab.research.google.com)
 
+
+## Análisis exploratorio de datos (EDA)
+
+Utilizando Google Colab realizaremos un análisis exploratorio de un conjunto de datos como ejemplo de un EDA.
+
+Objetivos de un EDA:
+
+* Conocer los datos -nivel conocimiento con el cliente/socio-
+* Responder preguntas de hipótesis que se tienen sobre los datos
+* Identificar errores en los datos
+* Identificar variables que aportan información para responder una pregunta analítica -generalmente predictiva-
 
 
 [Inicio](./index.md)

@@ -49,16 +49,16 @@ Modelos:
 
 1. Predicción
 
-* Con datos del pasado generar un modelo que aprenda patrones que nos puedan ayudar a encontrar el valor futuro de alguna variable/comportamiento.
+* Con datos del pasado generar un modelo que aprenda patrones que nos puedan ayudar a encontrar el valor futuro de alguna variable/comportamiento de interés.
 
 Por ejemplo:
 
-"Dado el comportamiento financiero de la empresa X, se le considera atípica" → El modelo desarrollado predice si una empresa es atípica o no dado su comportamiento financiero.
+"Dado el comportamiento financiero de la persona X, se le considera atípica" → El modelo desarrollado predice si una persona es atípica o no dado su comportamiento financiero.
 
 
 2. Agrupaciones/asociaciones
 
-* Agrupaciones: Con los datos del pasado generar un modelo que nos permita identificar qué caracteristicas hacen que las entidades se parezcan unas con otras.
+* Agrupaciones: Con los datos del pasado generar un modelo que nos permita identificar qué características hacen que las entidades se parezcan unas con otras.
 
 Por ejemplo:
 
@@ -77,12 +77,26 @@ Con los datos históricos identificar cuál es la mejor estrategia a seguir de a
 
 Por ejemplo:
 
+"¿Cuál es la mejor estrategia legal a seguir para que un agente que lava dinero sea castigado penalmente?"
 
 4. Causalidad
 
-Identificar qué variables afectan a otras en un problema de interés bajo el conexto en el que el problema sucede.
+Identificar qué variables afectan a otras en un problema de interés bajo el contexto en el que el problema sucede.
 
 Por ejemplo:
+
+"Qué variables afectan el cómo se introduce el dinero lavado al sistema"
+
+5. Grafos
+
+Permite identificar conexiones/desconexiones entre diferentes actores de un sistema habilitando análisis de redes: centralidad, comunidades, caminos, etc.
+
+Por ejemplo:
+
+"Identificar las empresas que siempre ganan las licitaciones de tipo X" o bien "Falta de conexión entre nodos en la red que deberían estar conectados"
+
+El análisis de grafos es muy utilizado para identificación de redes de lavado de dinera, corrupción, redes de pornografía, etc.
+
 
 #### ¿Qué no puede hacer Ciencia de datos?
 
