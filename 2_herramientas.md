@@ -54,14 +54,35 @@ Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes oc
 
 ## Análisis exploratorio de datos (EDA)
 
-Utilizando Google Colab realizaremos un análisis exploratorio de un conjunto de datos como ejemplo de un EDA.
-
 Objetivos de un EDA:
 
-* Conocer los datos -nivel conocimiento con el cliente/socio-
-* Responder preguntas de hipótesis que se tienen sobre los datos
+* Conocer los datos -nivelar conocimiento con el cliente/socio-
 * Identificar errores en los datos
+* Responder preguntas de hipótesis que se tienen sobre los datos
 * Identificar variables que aportan información para responder una pregunta analítica -generalmente predictiva-
+
+### Ejercicio
+
+Ocuparemos los datos de Covid 19 de México para realizar un análisis exploratorio de datos.
+
+Queremos contestar las siguientes preguntas:
+
+1. ¿Con qué variables contamos?
+2. ¿Los datos están en formato `tidy`?
+3. ¿Desde cuándo hasta cuándo tenemos datos de casos de Covid 19?
+4. ¿Tenemos datos de todas las entidades federativas?
+5. ¿Existen casos en donde la fecha de defunción suceda antes de la fecha de ingreso?
+6. Hay más casos en 2021 que en 2020
+
+**Hipótesis**
+
+6. Personas mayores de 60 años tienen mayor defunción que otros grupos de edad
+7. Los hombes son más suceptibles a morir por COVID-19
+8. Una vez que eres intubado es poco probable que sobrevivas
+9. Personas con comorbilidades tienen mayor probabilidad de morir por COVID-19
+10. Estados "turísticos" tienen más casos
+11. Un par de semanas después de fechas "feriadas" -día de las madres, semana santa, navidad, año nuevo- hay más contagios
+
 
 
 [Inicio](./index.md)

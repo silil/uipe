@@ -112,6 +112,14 @@ Por ejemplo, de los salarios del ejemplo de la media, la mediana toma el valor d
 Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802, esto significa que el promedio puede variar con más menos 9 mil pesos, los datos tienen mucha dispersión.
 
 
+### Datos faltantes
+
+Es muy común que tengas datos faltantes en cada variable de tu conjunto de datos. Puedes imputar tus datos -rellenarlos con algún valor- dependiendo de la variable y del contexto.
+
+Toma en cuenta que hay 
+
+## Visualización
+
 ###  Diagramas más utilizados
 
 + **Histogramas**: Te permiten conocer la distribución que siguen tus datos. De forma visual ayudan a conocer los valores en los que la mayoría de las observaciones se concentran.
