@@ -81,7 +81,7 @@ Estas métricas nos permiten conocer qué tan dispersos -varianza- están los da
 
 + **Media o promedio**: Se utiliza en variables numéricas para dar una idea de qué valor es el central en tu conjunto de datos. Se obtiene al sumar el valor de una característica o variable específica y dividir entre el número total de observaciones.
 
-OJO, esta métricas es susceptible a valores atípicos por lo que se sugiere utilizar con precaución.
+OJO, esta métrica es susceptible a valores atípicos por lo que se sugiere utilizar con precaución.
 
 Por ejemplo: Tenemos los siguientes datos:
 
@@ -101,13 +101,14 @@ Por ejemplo, de los salarios del ejemplo de la media, la mediana toma el valor d
 
 + **Moda**: Esta métrica nos permite conocer cuál es el valor que más ocurre. Se puede ocupar tanto en variables
 
+Por ejemplo, de los datos de salarios, la moda es 3,500; pues es la que aparece más veces.
 
 ¿Cuál ocupar? Depende de la pregunta que quieres contestar, lo único que es seguro es que si ocupas el promedio debes acompañarla siempre de la desviación estándar para identificar si el valor asociado ha sido susceptible a valores atípicos.
 
 
 ### Métricas de dispersión
 
-+ **Desviación estándar**: Pertime identificar qué tan dispersos están tus datos. Mientras más grande sea el número indica que hay más dispersión en tus datos → están más separados entre sí.
++ **Desviación estándar**: Pemite identificar qué tan dispersos están tus datos. Mientras más grande sea el número indica que hay más dispersión en tus datos → están más separados entre sí.
 
 Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802, esto significa que el promedio puede variar con más menos 9 mil pesos, los datos tienen mucha dispersión.
 
@@ -116,7 +117,9 @@ Por ejemplo, de los datos de salarios, la desviación estándar es de $9,829.802
 
 Es muy común que tengas datos faltantes en cada variable de tu conjunto de datos. Puedes imputar tus datos -rellenarlos con algún valor- dependiendo de la variable y del contexto.
 
-Toma en cuenta que hay 
+Toma en cuenta que hay implicaciones en tu toma de decisión con respecto a cómo imputar los datos.
+
+Por ejemplo: promedio de alumnos.
 
 ## Visualización
 
@@ -130,7 +133,7 @@ Por ejemplo:
 <br>
 Fuente: [Graphical Data Analysis with R](https://www.crcpress.com/downloads/K25332/Chapter_1.pdf)
 
-+ **Diagrama de caja y brazos**: Este diagrama se utiliza principalmente par identificar datos que son atípicos y además la distribución en cuartiles. En una misma gráfica se pueden identificar valores atípicos, el valor mínimo, máximo, primer cuartil (25%), segundo cuartil o mediana (50%) y tercer cuartil (75%).
++ **Boxplot/Diagrama de caja y brazos**: Este diagrama se utiliza principalmente par identificar datos que son atípicos y además la distribución en cuartiles. En una misma gráfica se pueden identificar valores atípicos, el valor mínimo, máximo, primer cuartil (25%), segundo cuartil o mediana (50%) y tercer cuartil (75%).
 
 Por ejemplo:
 
@@ -142,7 +145,7 @@ Para evitar malos entendidos, también es útil agregar el promedio a la gráfic
 ![](./images/boxplot_2.png)
 <br>
 
-+ **Diagrama de barras**: Esta gráfica se utiliza tanto para mostrar porcentajes como para frecuencias. Se presentan ordenando de mayor a menor frecuencia, ya sea horizontal o verticalmente.
++ **Barplot/Diagrama de barras**: Esta gráfica se utiliza tanto para mostrar porcentajes como para frecuencias. Se presentan ordenando de mayor a menor frecuencia, ya sea horizontal o verticalmente.
 
 ![](./images/barplot_sorted_1.png)
 
@@ -196,10 +199,15 @@ Presentar así:
 6. En variables numéricas utiliza un mismo color de mayor a menor saturación.
 
 ![](./images/numerical.png)
+<br>
+Fuente: [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+
 
 7. En variables categóricas utiliza colores diferentes para categoría **únicamente** si pondrás una leyenda con el valor que toma cada color, en caso contrario solo ocupa un color entre las diferentes categorías.
 
 ![](./images/categorical.png)
+<br>
+Fuente: [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
 La siguiente página te puede servir de guía para visualizaciones [Data to viz](https://www.data-to-viz.com/), no dejes de leer la parte de *caveats*.
 

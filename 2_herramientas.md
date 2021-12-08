@@ -51,6 +51,9 @@ Si por algún motivo no puedes instalar R y RStudio en tu máquina, puedes ocupa
 
 Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes ocupar `google colab` para generar y correr *notebooks* de Python que te permiten analizar tus datos. Se guardan como scripts en Drive. [Google Colab](https://colab.research.google.com)
 
+#### Pandas
+
+En Pandas hay dos tipos básicos de estructuras de datos las `Series` y los `DataFrames`. Las `Series` son las columnas y los `DataFrames` son las matrices creadas a partir de un conjunto de `Series`. 
 
 ## Análisis exploratorio de datos (EDA)
 
@@ -72,17 +75,18 @@ Queremos contestar las siguientes preguntas:
 3. ¿Desde cuándo hasta cuándo tenemos datos de casos de Covid 19?
 4. ¿Tenemos datos de todas las entidades federativas?
 5. ¿Existen casos en donde la fecha de defunción suceda antes de la fecha de ingreso?
-6. Hay más casos en 2021 que en 2020
+6. ¿Cuántos casos hay por año?
 
 **Hipótesis**
 
-6. Personas mayores de 60 años tienen mayor defunción que otros grupos de edad
-7. Los hombes son más suceptibles a morir por COVID-19
-8. Una vez que eres intubado es poco probable que sobrevivas
-9. Personas con comorbilidades tienen mayor probabilidad de morir por COVID-19
-10. Estados "turísticos" tienen más casos
-11. Un par de semanas después de fechas "feriadas" -día de las madres, semana santa, navidad, año nuevo- hay más contagios
+7. Personas mayores de 60 años tienen mayor defunción que otros grupos de edad
+8. Los hombres son más susceptibles a morir por COVID-19
+9. Una vez que eres intubado es poco probable que sobrevivas
+10. Personas con comorbilidades tienen mayor probabilidad de morir por COVID-19
+11. Estados "turísticos" tienen más casos
+12. Un par de semanas después de fechas "feriadas" -día de las madres, semana santa, navidad, año nuevo- hay más contagios
 
 
+### Práctica
 
 [Inicio](./index.md)
