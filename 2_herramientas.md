@@ -26,7 +26,8 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 
 ### R
 
-+ OpenSource
++ Lenguaje de programación **estadístico**
++ *OpenSource*
 + R base
   + Instalación para [Windows](https://cran.itam.mx/) Selecciona la opción *Download R for Windows*
   + Instalación para [Mac](https://cran.itam.mx/) Selecciona la opción *Download R for macOS*
@@ -34,16 +35,18 @@ La estructura de datos que se ocupa tanto en R como en Python/Pandas es el *Data
 + RStudio
   + Instlaación para [Windows](https://www.rstudio.com/products/rstudio/download/#download) Selecciona la opción para Windows.
   + Instlaación para [Mac](https://www.rstudio.com/products/rstudio/download/#download) Selecciona la opción para macOS.
-  + Instalación para [Linux](https://www.rstudio.com/products/rstudio/download/#download)
+  + Instalación para [Linux](https://www.rstudio.com/products/rstudio/download/#download) Seleccona la opción para Linux.
 
 + Tidyverse: La primera vez: `install.packages("tidyverse")`, una vez instalado, cargar la librería con `library(tidyverse)`
 + Dplyr: La primera vez: `install.packages("dplyr")`, una instalado, cargar la librería con `library(dplyr)`.
-+ Librerias de ML: Depende del algoritmo, modelo que quieres utilizar.
++ Librerías de ML: Depende del algoritmo, modelo que quieres utilizar.
 
 Si por algún motivo no puedes instalar R y RStudio en tu máquina, puedes ocupar `rdrr.io` para correr código de R en tu *browser* [rdrr.io](https://rdrr.io/snippets/).
 
 ### Python
 
++ Lenguaje de programación general
++ *OpenSource*
 + Pandas: Paquete que habilita a Python para análisis de datos (simil de R).
 + Seaborn: Paquete que habilita a Python para realizar gráficas.
 + Scikit-learn: Paquete que habilita a Python la parte de *machine learning*.
@@ -53,7 +56,7 @@ Si no quieres/puedes instalar python y demás paquetes en tu máquina, puedes oc
 
 #### Pandas
 
-En Pandas hay dos tipos básicos de estructuras de datos las `Series` y los `DataFrames`. Las `Series` son las columnas y los `DataFrames` son las matrices creadas a partir de un conjunto de `Series`. 
+En Pandas hay dos tipos básicos de estructuras de datos las `Series` y los `DataFrames`. Las `Series` son las columnas y los `DataFrames` son las matrices creadas a partir de un conjunto de `Series`.
 
 ## Análisis exploratorio de datos (EDA)
 
